@@ -20,6 +20,7 @@ p {
     line-height: .5;
 }
 img {
+    width: 100%;
     border-radius: 10px;
     -webkit-box-shadow: 8px 8px 30px 0px rgba(0,0,0,1);
     -moz-box-shadow: 8px 8px 30px 0px rgba(0,0,0,1);
@@ -61,3 +62,9 @@ a {
 .preactive1 {font-size: .7rem; color: rgba(0, 0, 0, .8);}
 .preactive2 {font-size: .65rem; color: rgba(0, 0, 0, .7);}
 .preactive3 {font-size: .6rem; color: rgba(0, 0, 0, .6);}
+
+@media screen and (max-width: 1000px) {
+    .time {
+        display: none;
+    }
+}
