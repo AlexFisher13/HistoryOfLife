@@ -1,5 +1,4 @@
 $(document).ready(
-
     function() {
     $('.time a').click(function() { //ловим клик по ссылке c классом goto
     var scroll = $(this).attr('href'); //берем атрибут href выбранного элемента
