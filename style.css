@@ -86,12 +86,14 @@ a {
 }
 .history div {
     text-align: center;
-    padding: 15px 0 25px 0;
+    padding: 45px 0 20px 0;
     transition: all .5s;
 }
-.history div:first-child {
-    padding-top: 40px;
+
+.history div > p:nth-child(3) {
+    margin-bottom: 15px;
 }
+
 .active {
     font-size: .8rem;
     color: rgba(47, 35, 0, 1);
